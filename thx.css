@@ -1,0 +1,59 @@
+body {
+    background-color: Beige;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: OliveDrab;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.donation-form {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 1em;
+    width: 200px; /* Уменьшенная ширина поля ввода */
+}
+
+button {
+    padding: 10px 20px; /* Уменьшенный размер кнопки */
+    font-size: 1em;
+    background-color: OliveDrab;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: DarkOliveGreen;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 450px; /* Ширина картинки */
+    height: 300px; /* Высота картинки */
+    border: 5px solid black; /* Черный контур картинки */
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для картинки */
+}
